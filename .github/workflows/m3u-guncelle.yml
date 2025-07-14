@@ -18,10 +18,10 @@ jobs:
           python-version: '3.x'
 
       - name: Download kabloepg.xml
-        run: wget https://raw.githubusercontent.com/atakan1983/tvepic/main/kabloepg.xml -O kabloepg.xml
+        run: wget https://github.com/ingtv/tvingdd/blob/main/kabloepg.xml -O kabloepg.xml
 
       - name: Download mehmet.m3u
-        run: wget https://raw.githubusercontent.com/atakan1983/kabloo/main/mehmet.m3u -O mehmet.m3u
+        run: wget https://github.com/ingtv/tvingdd/blob/main/mehmet_guncel.m3u -O mehmet.m3u
 
       - name: Run M3U Güncelleme Scripti
         run: python guncelle_m3u.py
