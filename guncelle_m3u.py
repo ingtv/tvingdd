@@ -5,7 +5,7 @@ import difflib
 epg_xml = "kabloepg.xml"
 input_m3u = "mehmet.m3u"
 output_m3u = "mehmet_guncel.m3u"
-epg_url = "https://raw.githubusercontent.com/atakan1983/tvepic/refs/heads/main/kabloepg.xml"
+epg_url = "https://raw.githubusercontent.com/ingtv/tvingdd/refs/heads/main/kabloepg.xml"
 
 # EPG'den display-name -> id haritası
 displayname_to_id = {}
